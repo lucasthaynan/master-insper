@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box; /* Limitar tamanho de todas as caixas contando padding e margin */
+}
+
+:root {
+    --background-color: #0A192F;
+    --color-font-light-green: #5AE5C7;
+    --color-font-light-blue: #CCD6F6;
+    --main-column-max: 1280px;
+    --article-column-max: 500px;
+}
+
+main {
+    background-color: var(--background-color);
+    padding-bottom: 100px;
+}
+
+section.header {
+    max-width: 40rem;
+    margin: 0rem auto; /* Centralizar container */
+    width: var(-main-column-max);
+     /* height: 100vh; preencher a altura da tela */   
+    padding-top: 50px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+::selection {
+    /* ajusta a cor do texto selecionado */
+    color: var(--background-color);
+    background: var(--color-font-light-green);
+  }
+
+::-moz-selection { /* Code for Firefox */
+    /* ajusta a cor do texto selecionado */
+    color: red;
+    background: yellow;
+  }
+
+h1 {
+    font-family: 'Roboto', normal;
+    font-weight: 500;
+    color: var(--color-font-light-blue);
+    letter-spacing: -0.05em;
+    font-size: 2rem;
+    line-height: 97.69%;
+    
+
+}
+strong {
+    color: var(--color-font-light-green);
+    font-family: 600;
+}
+
+h3 {
+    font-family: 'Roboto', normal;
+    font-weight: 600;
+    color: var(--color-font-light-green); 
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+    
+    
+}
+
+p {
+    font-family: 'Roboto', normal;
+    font-weight: 300;
+    color: var(--color-font-light-blue);
+    font-size: 1rem;
+    max-width: var(--main-column-max);
+    line-height: 1.4rem;
+    margin-bottom: 20px;    
+}
+
+.item p {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: 'Roboto', normal;
+    font-weight: 200;
+    color: var(--color-font-light-blue);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 20px auto;
+}
+
+h4 {
+    margin-left: 50px;    
+    font-family: 'Roboto', normal;
+    font-weight: 600;
+    color: var(--color-font-light-green); 
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+a {
+    font-family: 'Roboto', normal;
+    font-weight: 600;
+    color: var(--color-font-light-blue);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-decoration: underline var(--color-font-light-green);
+    display: block;
+    max-width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+a:hover {
+    background-color: var(--color-font-light-green);
+    color: var(--background-color);
+    transition:all 0.2s ease;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 30px;
+    
+}
+
+.titulo {
+    background-color: var(--color-font-light-green);
+    padding: 15px 10px 3px 10px;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+#disciplina {
+    font-family: 'Roboto', normal;
+    font-weight: 600;
+    color: var(--background-color); 
+    font-size: 1.5rem;
+    text-align: center; 
+    
+}
+
+.item {    
+    max-width: 100%;  
+    
+}
+
+section.flex {
+    max-width: 40rem;
+    margin: 0rem auto; /* Centralizar container */
+    width: var(-main-column-max);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex > div {
+    flex: 1 1 300px;
+    margin: 10px;
+    border: 1px solid var(--color-font-light-green);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+div.icone-github {
+    color: #5AE5C7;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 5rem;
+    padding: 10px;
+    
+}
+
+#001 {
+    color: #5AE5C7;
+}
