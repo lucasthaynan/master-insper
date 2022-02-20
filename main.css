@@ -38,8 +38,8 @@ hr {
 
 ::-moz-selection { /* Code for Firefox */
     /* ajusta a cor do texto selecionado */
-    color: red;
-    background: yellow;
+    color: var(--background-color);
+    background: var(--color-font-light-green);
   }
 
 h1 {
@@ -121,7 +121,13 @@ a:hover {
     padding: 5px;
     padding-left: 10px;
     border-radius: 30px;
-    
+}
+
+.git a:hover {
+    text-decoration: none;
+    color: var(--background-color);
+    transition:all 0.2s ease;
+       
 }
 
 .titulo {
@@ -162,15 +168,10 @@ section.flex {
     border-radius: 10px;
 }
 
-div.icone-github {
+.git a {
     color: #5AE5C7;
     text-decoration: none;
-    padding: 10px;
-    font-size: 5rem;
-    padding: 10px;
-    
+    font-size: 2rem;
+    margin-top: -10px;  
 }
 
-#001 {
-    color: #5AE5C7;
-}
