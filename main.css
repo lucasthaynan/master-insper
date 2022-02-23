@@ -21,7 +21,7 @@ main {
 }
 
 section.header {
-    max-width: 40rem;
+    max-width: 35rem;
     margin: 0rem auto; /* Centralizar container */
     width: var(-main-column-max);
      /* height: 100vh; preencher a altura da tela */   
@@ -49,9 +49,9 @@ h1 {
     font-weight: 500;
     color: var(--color-font-light-blue);
     letter-spacing: -0.05em;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 97.69%;
-    
+    text-align: center;   
 
 }
 strong {
@@ -91,6 +91,12 @@ h2 {
     font-size: 1.2rem;
     line-height: 2rem;
     margin: 20px auto;
+    text-align: center;
+}
+
+section.header p {
+    text-align: center;
+    margin: 40px;
 }
 
 h4 {
