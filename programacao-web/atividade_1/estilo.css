@@ -1,0 +1,51 @@
+body{
+    background-color: #fff;
+    font-family: Helvetica, Arial, sans serif;
+  }
+  *{
+    box-sizing: border-box;
+  }
+
+  .container{
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    margin: auto; 
+    padding: 20px;
+    display: flex;
+    transform: rotate(180deg); 
+    
+  }
+  .barra{
+    height: calc((100% - 15px)/5);
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    margin-right: 8px;
+    background-color: #aa0404;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  .barra.eua{
+    height: 91.76%;
+  }
+  .barra.china{
+    height: 67.44%;
+  }
+  .barra.japao{
+    height: 20.40%;
+  }
+  .barra.alemanha{
+    height: 16.92%;
+  }
+  .barra.reino-unido{
+    height: 12.44%;
+  }
+
+
+ 
