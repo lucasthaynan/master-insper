@@ -96,7 +96,7 @@ h2 {
 
 section.header p {
     text-align: center;
-    margin: 40px;
+    margin: 20px;
 }
 
 h4 {
@@ -146,20 +146,23 @@ a:hover {
 
 
 
-.titulo {
+div.titulo {
     background-color: var(--color-font-light-green);
     padding: 15px 10px 3px 10px;
     border-radius: 30px;
     margin: 20px auto;
 }
 
-#disciplina {
+.flex div.titulo {
+    margin-top: 45px;
+}
+
+.disciplina {
     font-family: 'Roboto', normal;
     font-weight: 600;
     color: var(--background-color); 
     font-size: 1.5rem;
-    text-align: center; 
-    
+    text-align: center;       
 }
 
 .item {    
@@ -175,6 +178,7 @@ section.flex {
     flex-wrap: wrap;
     
 }
+
 
 
 .flex > div {
